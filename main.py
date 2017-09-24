@@ -1,16 +1,11 @@
-# Fichier main()
-# Différentes étapes pour faire fonctionner le programme
+# FIchier principal du jeu
+# Boucle qui continue tant qu'on a pas decide de quitter le jeu
 
-# Boucle qui continue tant que le jeu n'est pas terminé
-continuer = true
-
-while continuer = true:
-
-  key = input('Envoyer :quit pour quitter')
-
-  if key = ":quit":
-    continuer = false
-  
-
-  if continuer = false:
-    break
+continuer = True
+while continuer:
+    key = input("Utilisez la commande @quit pour quitter le jeu")
+    key = key
+    if key == '@quit':
+        continuer = False
+    if not continuer:
+        break
